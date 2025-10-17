@@ -7,6 +7,7 @@
 html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   overflow-y: auto;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 #root {
@@ -162,22 +164,69 @@ body {
 
 @media (max-width: 768px) {
   .content {
-    padding: 1.5rem;
-    padding-top: 6rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  .content__inner {
+    max-width: 100%;
   }
 
   .content__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.1;
   }
   
   .content__description {
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-bottom: 2rem;
   }
 
   .language-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0.75rem;
+    max-width: 100%;
+  }
+
+  .language-card {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .language-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .language-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .language-card p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 0.75rem;
+    padding-top: 3rem;
+  }
+
+  .content__title {
+    font-size: 1.75rem;
+  }
+
+  .content__description {
+    font-size: 0.9rem;
+  }
+
+  .language-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .language-card {
@@ -188,12 +237,6 @@ body {
     width: 50px;
     height: 50px;
     font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .language-grid {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -295,21 +338,91 @@ body {
 }
 
 @media (max-width: 768px) {
+  .back-button {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
   .learning-content {
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 
   .language-section {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .language-header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     gap: 1rem;
+  }
+
+  .language-header .language-icon {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .language-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .language-header p {
+    font-size: 0.85rem;
   }
 
   .topics-grid {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .topic-link {
+    padding: 0.875rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .learning-content {
+    gap: 1rem;
+  }
+
+  .language-section {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .language-header {
+    gap: 0.75rem;
+  }
+
+  .language-header .language-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  .language-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .language-header p {
+    font-size: 0.8rem;
+  }
+
+  .topics-grid {
+    gap: 0.5rem;
+  }
+
+  .topic-link {
+    padding: 0.75rem 0.875rem;
+    font-size: 0.85rem;
   }
 }

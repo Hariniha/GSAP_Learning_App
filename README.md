@@ -1,4 +1,4 @@
-# 🎨 Code Mastery - Interactive Learning Platform
+# Interactive Learning Platform
 
 ![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)
 ![GSAP](https://img.shields.io/badge/GSAP-3.x-88CE02?style=for-the-badge&logo=greensock)

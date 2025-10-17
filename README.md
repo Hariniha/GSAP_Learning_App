@@ -18,7 +18,7 @@ A stunning, interactive web application that helps users explore and learn 12+ p
 
 ## Live Demo
 
-[View Live Demo](#) <!-- Add your deployment URL here -->
+[View Live Demo](#) https://gsap-learning-app.vercel.app/
 
 
 

@@ -1,16 +1,106 @@
-# React + Vite
+# 🎨 Code Mastery - Interactive Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)
+![GSAP](https://img.shields.io/badge/GSAP-3.x-88CE02?style=for-the-badge&logo=greensock)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite)
 
-Currently, two official plugins are available:
+A stunning, interactive web application that helps users explore and learn 12+ programming languages (including Web3 technologies) through an immersive experience powered by advanced GSAP animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **12 Programming Languages** - From JavaScript to Solidity, covering traditional and Web3 technologies
+- **Advanced GSAP Animations** - Professional 3D transforms, staggered effects, and continuous animations
+- **Particle Background System** - 200+ GPU-accelerated particles with dynamic wireframe connections
+- **48+ Learning Resources** - Curated GeeksforGeeks tutorials for each language
+- **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
+- **60fps Performance** - GPU-accelerated animations with optimized rendering
+- **Interactive UI** - Click-to-explore interface with smooth page transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
 
-## Expanding the ESLint configuration
+[View Live Demo](#) <!-- Add your deployment URL here -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Technologies
+
+### Frontend Framework
+- **React** - Modern UI library with hooks
+- **Vite** - Lightning-fast build tool and dev server
+
+### Animation & Graphics
+- **GSAP (GreenSock Animation Platform)** - Professional animation library
+  - Core GSAP for timeline animations
+  - ScrollTrigger plugin for scroll-based effects
+  - 3D transforms (rotationX, rotationY, scale)
+  - Advanced easing functions
+- **Canvas 2D API** - Particle system and wireframe rendering
+
+### Styling
+- **CSS3** - Modern styling with Grid, Flexbox, and 3D transforms
+- **Google Fonts** - Barlow and Vidaloka fonts
+
+##  Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Hariniha/GSAP_Learning_App.git
+   cd GSAP_Learning_App
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:5173
+   ```
+
+
+##  Supported Languages
+
+### Traditional Programming
+- JavaScript (Web Development)
+- Python (AI & Data Science)
+- TypeScript (Type-Safe Apps)
+- Java (Enterprise Apps)
+- C++ (System Programming)
+
+### Web Development
+- React (UI Development)
+- Node.js (Backend Development)
+
+### Web3 & Blockchain
+- Solidity (Smart Contracts)
+- Rust (Web3 & Systems)
+- Go (Backend & Blockchain)
+- Move (Aptos & Sui)
+- Vyper (Pythonic Smart Contracts)
+
+## 📁 Project Structure
+
+```
+decorative-bg-react/
+├── src/
+│   ├── components/
+│   │   └── DecorativeBackground.jsx    # GSAP particle animation
+│   ├── App.jsx                         # Main application logic
+│   ├── App.css                         # Application styles
+│   ├── index.css                       # Global styles
+│   └── main.jsx                        # React entry point
+├── public/                             # Static assets
+├── index.html                          # HTML template
+├── package.json                        # Dependencies
+├── vite.config.js                      # Vite configuration
+└── README.md                           # Documentation
+```
+
+
+Made with ❤️ using React, GSAP, and Vite
